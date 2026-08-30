@@ -30,7 +30,7 @@ These will cover the functional part of the project.
 
 ## Useful links and resources
 
-There are plenty of Product Landing Pages out there. You can use [Dribbble](www.dribbble.com) and [Behance](www.behance.net) for inspiration.
+There are plenty of Product Landing Pages out there. You can use [Dribbble](https://dribbble.com) and [Behance](https://www.behance.net) for inspiration.
 
 ## Example projects
 
