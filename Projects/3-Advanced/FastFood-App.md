@@ -72,7 +72,7 @@ through the workflow.
 ## Useful links and resources
 
 - [Fast Food Simulator - Logical Workflow](https://drive.google.com/file/d/1Thfm5cFDm1OjTg_0LsIt2j1uPL5fv-Dh/view?usp=sharing)
-- [Agile Manifesto & 12 Principles of Agile Software](http://agilemanifesto.org/)
+- [Agile Manifesto & 12 Principles of Agile Software](https://agilemanifesto.org/)
 - [SOLID Principles Every Developer Should Know](https://blog.bitsrc.io/solid-principles-every-developer-should-know-b3bfa96bb688)
 - [Using Promises](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises)
 - [Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)

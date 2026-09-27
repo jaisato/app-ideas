@@ -22,7 +22,7 @@ Allow users to generate custom memes by adding text over an image.
 
 ## Useful links and resources
 
-Working with canvas is made very easy by the [p5js](http://p5js.org/) library.
+Working with canvas is made very easy by the [p5js](https://p5js.org/) library.
 
 ## Example projects
 
