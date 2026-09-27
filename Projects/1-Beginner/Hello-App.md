@@ -21,8 +21,11 @@ language.
 
 ### Constraints
 
--   Developers should use the [IP-API](http://ip-api.com/docs/api:json) service
-    to obtain the users country code.
+-   Developers should use the [IP-API](https://ip-api.com/docs/api:json) service
+    to obtain the users country code. Note that IP-API's free endpoint is
+    served over plain HTTP only, so browsers will block calls to it from a
+    page served over HTTPS (mixed content); call it from a backend or use an
+    HTTPS-capable geolocation API when deploying the app over HTTPS.
 -   Developers should use the
     [Fourtonfish](https://www.fourtonfish.com/hellosalut/hello/) service to
     obtain the greeting in the users native language by passing the country code.
@@ -59,7 +62,7 @@ language.
 -   [Form Follows Function (Wikipedia)](https://en.wikipedia.org/wiki/Form_follows_function)
 -   [Personalization (Wikipedia)](https://en.wikipedia.org/wiki/Personalization)
 -   [Fourtonfish](https://www.fourtonfish.com/hellosalut/hello/)
--   [IP-API](http://ip-api.com/docs/api:json)
+-   [IP-API](https://ip-api.com/docs/api:json)
 
 ## Example projects
 
