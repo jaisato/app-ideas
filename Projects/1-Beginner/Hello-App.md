@@ -24,8 +24,10 @@ language.
 -   Developers should use the [IP-API](https://ip-api.com/docs/api:json) service
     to obtain the users country code. Note that IP-API's free endpoint is
     served over plain HTTP only, so browsers will block calls to it from a
-    page served over HTTPS (mixed content); call it from a backend or use an
-    HTTPS-capable geolocation API when deploying the app over HTTPS.
+    page served over HTTPS (mixed content). When deploying over HTTPS, either
+    use an HTTPS-capable geolocation API from the browser, or call IP-API from
+    a backend and pass it the user's client IP (`/json/{ip}`); without that
+    argument IP-API geolocates the backend server, not the user.
 -   Developers should use the
     [Fourtonfish](https://www.fourtonfish.com/hellosalut/hello/) service to
     obtain the greeting in the users native language by passing the country code.
